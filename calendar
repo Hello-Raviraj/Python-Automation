@@ -1,0 +1,11 @@
+import datetime
+import calendar
+
+y=int(input("enter the year"))
+m=int(input("enter the month"))
+d=int(input("enter the date"))
+x = datetime.datetime(y,m,d)
+
+print(x.strftime("%A"))
+print("here is calender")
+print(calendar.month(y,m))
