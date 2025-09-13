@@ -1,5 +1,5 @@
 import requests
-url = ["https://ecourts.gov.in/" , "https://pay.ecourts.gov.in" , "https://app.ecourts.gov.in"]
+url = ["https://abc.com"]
 website = "https://ecourts.gov.in"
 x = requests.get(website)           #send the request to the websote
 y = x.headers                       #grab the headers
